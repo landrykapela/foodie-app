@@ -1,0 +1,40 @@
+{
+  "name": "foodieapp",
+  "version": "1.0.0",
+  "description": "An application for reviewing of sauces",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landrykapela/foodie-app.git"
+  },
+  "keywords": [
+    "Food",
+    "review",
+    "app",
+    "nodeJS",
+    "landry",
+    "kapela",
+    "sauces"
+  ],
+  "author": "Landry Kapela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landrykapela/foodie-app/issues"
+  },
+  "homepage": "https://github.com/landrykapela/foodie-app#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "image-to-base64": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "mongoose-unique-validator": "^2.0.2",
+    "multiparty": "^4.2.1"
+  },
+  "devDependencies": {}
+}
